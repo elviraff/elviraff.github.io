@@ -13,7 +13,7 @@ export const FinalPage = () => {
             <div className={styles.text}>Держите телефон под рукой. Скоро c Вами свяжется наш менеджер.</div>
           </div>
         </div>
-            <Link className={styles.button_link} to="/home" onClick={dispatch(setModal(false))}>X</Link>
+            <Link className={styles.button_link} to="/home" onClick={()=> dispatch(setModal(false))}>X</Link>
       </div>
   );
 };

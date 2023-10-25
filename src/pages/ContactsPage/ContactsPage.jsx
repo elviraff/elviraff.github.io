@@ -80,7 +80,7 @@ export const ContactsPage = () => {
       </div>
       <div>
         <button>
-          <Link to="/home" onClick={dispatch(setModal(false))}>
+          <Link to="/home" onClick={()=> dispatch(setModal(false))}>
             X
           </Link>
         </button>
