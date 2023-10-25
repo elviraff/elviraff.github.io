@@ -13,7 +13,6 @@ function App() {
       <Route path='/home' element={<MainPage />} />
       <Route path='/contacts' element={<ContactsPage />} />
       <Route path='/final' element={<FinalPage />} />
-    {/* <ContactsPage /> */}
     </Routes>
     </BrowserRouter>
   );
