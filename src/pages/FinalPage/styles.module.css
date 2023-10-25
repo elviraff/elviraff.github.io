@@ -1,0 +1,39 @@
+.root {
+    width: 1280px;
+    height: 720px;
+    background-image: url('../ContactsPage/contacts.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.contacts__wrapper{
+    width: 284px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    width: 380px;
+    background-color: #86D3F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+}
+
+.text {
+    text-align: center;
+}
+
+.button_link {
+    background: white;
+    border: 1px solid #000;
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}

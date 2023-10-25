@@ -1,0 +1,8 @@
+.key {
+    width: 88px;
+    height: 52px;
+    border: 1px solid #000;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}

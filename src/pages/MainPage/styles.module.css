@@ -1,0 +1,15 @@
+.root {
+    background-image: url('./video.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    height: 100px;
+    width: 100px;
+}

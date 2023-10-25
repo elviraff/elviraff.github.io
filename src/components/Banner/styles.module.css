@@ -1,0 +1,25 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.element {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 16px 67px;
+    background-color: #86D3F4;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.link {
+    text-decoration: none;
+}

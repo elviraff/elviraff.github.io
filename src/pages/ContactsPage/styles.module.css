@@ -1,0 +1,72 @@
+.root {
+    width: 1280px;
+    height: 720px;
+    background-image: url('./contacts.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.contacts__wrapper{
+    width: 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.input {
+    width: 239px;
+    margin: 13px 0;
+}
+
+.contacts {
+    width: 380px;
+    background-color: #86D3F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.personal_data {
+    margin: 13px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.personal_data__text {
+    margin-left: 20px;
+}
+
+.buttonInactive {
+    color: rgb(146, 146, 150);
+}
+
+.buttonActive {
+    color: rgb(10, 10, 10);
+    background: #ee8711;
+}
+
+.disabled_link {
+    pointer-events: none;
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+.enabled_link {
+    text-decoration: none;
+    padding: 12px 0;
+}
