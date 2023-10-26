@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://elviraff.github.io/elviraff.github.io-testProjectNew", 
+  "homepage": "https://elviraff.github.io", 
   "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
